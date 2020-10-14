@@ -28,10 +28,24 @@ body {
   margin-left: 220px;
 }
 
+.hero-text p {
+  margin-bottom: 30px;
+  width: 720px;
+  color: #94A2B3;
+  line-height: 25px;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 4.5em;
+  line-height: 95px;
   color: #272d4e;
+  margin-bottom: 30px;
+}
+
+.hero-action a {
+  color: #299EF3;
+  text-decoration: none;
 }
 
 .hero-button {
@@ -54,7 +68,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 30px 55px;
+  padding: 30px 55px 0;
+  margin-bottom: 95px;
   width: 100%;
 }
 
