@@ -17,10 +17,31 @@ body {
   background: url(../images/hero-bg.png) no-repeat, linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
 }
 
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-text {
+  width: 55%;
+  margin-left: 220px;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 4.5em;
   color: #272d4e;
+}
+
+.hero-button {
+  border: none;
+  width: 267px;
+  height: 72px;
+  background-color: #7854f7;
+  color: #fff;
+  border-radius: 60px;
+  font-size: 1em;
 }
 
 .header-inner {
@@ -34,6 +55,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 30px 55px;
+  width: 100%;
 }
 
 .header-right {
