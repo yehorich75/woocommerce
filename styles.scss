@@ -1,5 +1,6 @@
 $title-dark-color: #272d4e;
 $violet-color: #7854f7;
+$text-dark-color: #94a2b3;
 
 *,
 *::before,
@@ -16,19 +17,23 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+.header-nav a {
+  color: $title-dark-color;
+}
+
+h2 {
+  text-align: center;
+  // font-size: 55px;
+  font-size: 3.1em;
+  font-weight: 700;
+}
+
 // .container {
 //   width: 1480px;
 //   margin: 0 auto;
 // }
-
-section {
-  height: 100vh;
-}
-
-.section-title {
-  font-size: 55px;
-  font-weight: 700;
-}
 
 .hero {
   background: url(../images/hero-bg.png) no-repeat,
@@ -40,28 +45,33 @@ section {
     );
   &-content {
     display: flex;
-  }
-  &-text {
-    width: 55%;
-    margin-left: 220px;
-    p {
-      margin-bottom: 30px;
-      width: 720px;
-      color: #94A2B3;
-      line-height: 25px;
+    &__text {
+      width: 55%;
+      margin-left: 220px;
+      p {
+        margin-bottom: 30px;
+        width: 720px;
+        color: $text-dark-color;
+        line-height: 25px;
+      }
+    }
+    &__image {
+      overflow: hidden;
     }
   }
   &-title {
     font-weight: 700;
     font-size: 4.5em;
     line-height: 95px;
-    color: $title-dark-color;
     margin-bottom: 30px;
   }
   &-action {
     a {
-      color: #299EF3;
+      color: #299ef3;
       text-decoration: none;
+      span {
+        color: $text-dark-color;
+      }
     }
   }
   &-button {
@@ -100,7 +110,6 @@ section {
       a {
         font-weight: 500;
         text-decoration: none;
-        color: $title-dark-color;
         font-size: 1em;
       }
     }
