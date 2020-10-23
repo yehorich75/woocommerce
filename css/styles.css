@@ -8,12 +8,14 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  color: #94a2b3;
   margin: 0;
   padding: 0;
 }
 
 h1,
 h2,
+h3,
 .header-nav a {
   color: #272d4e;
 }
@@ -22,6 +24,10 @@ h2 {
   text-align: center;
   font-size: 3.1em;
   font-weight: 700;
+}
+
+p {
+  line-height: 25px;
 }
 
 .link {
@@ -48,8 +54,6 @@ h2 {
 .hero-content__text p {
   margin-bottom: 30px;
   width: 720px;
-  color: #94a2b3;
-  line-height: 25px;
 }
 
 .hero-content__image {
@@ -130,5 +134,24 @@ h2 {
   font-size: 1em;
   cursor: pointer;
   margin-left: 38px;
+}
+
+.features-title {
+  margin: 0 0 80px;
+}
+
+.features-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 205px 0 114px;
+}
+
+.features-card__text {
+  padding: 0 56px;
+}
+
+.features-img {
+  margin-bottom: -50px;
 }
 /*# sourceMappingURL=styles.css.map */

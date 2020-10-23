@@ -13,12 +13,14 @@ $text-dark-color: #94a2b3;
 body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  color: $text-dark-color;
   margin: 0;
   padding: 0;
 }
 
 h1,
 h2,
+h3,
 .header-nav a {
   color: $title-dark-color;
 }
@@ -28,6 +30,10 @@ h2 {
   // font-size: 55px;
   font-size: 3.1em;
   font-weight: 700;
+}
+
+p {
+  line-height: 25px;
 }
 
 // .container {
@@ -56,8 +62,6 @@ h2 {
       p {
         margin-bottom: 30px;
         width: 720px;
-        color: $text-dark-color;
-        line-height: 25px;
       }
     }
     &__image {
@@ -131,4 +135,22 @@ h2 {
   font-size: 1em;
   cursor: pointer;
   margin-left: 38px;
+}
+
+.features {
+  &-title {
+    margin: 0 0 80px;
+  }
+  &-cards {
+    display: flex;
+    margin: 0 205px 0 114px;
+  }
+  &-card {
+    &__text {
+      padding: 0 56px;
+    }
+  }
+  &-img {
+    margin-bottom: -50px;
+  }
 }
