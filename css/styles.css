@@ -24,6 +24,11 @@ h2 {
   font-weight: 700;
 }
 
+.link {
+  color: #299ef3;
+  text-decoration: none;
+}
+
 .hero {
   background: url(../images/hero-bg.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#e5efff), color-stop(83.7%, rgba(229, 239, 255, 0.262661)), to(rgba(229, 239, 255, 0)));
   background: url(../images/hero-bg.png) no-repeat, linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
