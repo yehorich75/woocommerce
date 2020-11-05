@@ -36,6 +36,15 @@ p {
   line-height: 25px;
 }
 
+// section {
+//   height: 100vh;
+// }
+
+.hero,
+.features {
+  height: 100vh;
+}
+
 // .container {
 //   width: 1480px;
 //   margin: 0 auto;
@@ -143,14 +152,28 @@ p {
   }
   &-cards {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 205px 0 114px;
   }
   &-card {
+    position: relative;
+    width: 33.3%;
     &__text {
       padding: 0 56px;
     }
   }
   &-img {
     margin-bottom: -50px;
+    &__payment {
+      position: absolute;
+      top: 58px;
+      left: -101px;
+    }
+    &__icon {
+      position: absolute;
+      top: 5px;
+      top: 43px;
+      left: -28px;
+    }
   }
 }
