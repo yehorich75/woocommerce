@@ -41,7 +41,8 @@ p {
 // }
 
 .hero,
-.features {
+.features,
+.descr {
   height: 100vh;
 }
 
@@ -149,6 +150,7 @@ p {
 .features {
   &-title {
     margin: 0 0 80px;
+    height: 800px;
   }
   &-cards {
     display: flex;
@@ -174,6 +176,10 @@ p {
       top: 5px;
       top: 43px;
       left: -28px;
+    }
+    &__square {
+      position: absolute;
+      top: 57px;
     }
   }
 }

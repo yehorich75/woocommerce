@@ -31,7 +31,8 @@ p {
 }
 
 .hero,
-.features {
+.features,
+.descr {
   height: 100vh;
 }
 
@@ -143,6 +144,7 @@ p {
 
 .features-title {
   margin: 0 0 80px;
+  height: 800px;
 }
 
 .features-cards {
@@ -178,5 +180,10 @@ p {
   top: 5px;
   top: 43px;
   left: -28px;
+}
+
+.features-img__square {
+  position: absolute;
+  top: 57px;
 }
 /*# sourceMappingURL=styles.css.map */
