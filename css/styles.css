@@ -30,12 +30,6 @@ p {
   line-height: 25px;
 }
 
-.hero,
-.features,
-.descr {
-  height: 100vh;
-}
-
 .link {
   color: #299ef3;
   text-decoration: none;
@@ -144,7 +138,6 @@ p {
 
 .features-title {
   margin: 0 0 80px;
-  height: 800px;
 }
 
 .features-cards {
@@ -185,5 +178,22 @@ p {
 .features-img__square {
   position: absolute;
   top: 57px;
+}
+
+.features-img__small {
+  position: absolute;
+  top: 0;
+}
+
+.features-img__medium {
+  position: absolute;
+  top: -50px;
+  left: 50px;
+}
+
+.features-img__large {
+  position: absolute;
+  bottom: 120px;
+  right: -310px;
 }
 /*# sourceMappingURL=styles.css.map */
